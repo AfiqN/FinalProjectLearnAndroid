@@ -1,3 +1,287 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="image_food">Image food</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Mie Goreng Nyemek</item>
+        <item>Oseng Kangkung</item>
+        <item>Ikan Patin Bumbu Kuning</item>
+        <item>Ayam Goreng Laos</item>
+        <item>Sayur Lodeh Simple</item>
+        <item>Beef Steak Saus Lada Hitam</item>
+        <item>Udang Saus Padang</item>
+        <item>Ayam Bakar</item>
+        <item>Nasi Goreng Rawon</item>
+        <item>Ikan Bakar Makassar</item>
+        <item>Ikan Tongkol Balado</item>
+        <item>Mie Ayam Rica-Rica</item>
+    </string-array>
+
+    <string-array name="data_description" >
+        <item>Penyuka mie nyemek atau mie goreng wajib banget coba resep ini. Hidangan mie yang dipopulerkan dari Yogyakarta ini punya banyak penggemar karena tekstur kuahnya yang kental dan kaya rasa. Masakan ini juga memuaskan pencinta mie rebus yang ingin menikmati cita rasa mie goreng namun tetap bisa menikmati kuahnya.Mie goreng nyemek ini bukan cuma enak disantap sebagai menu makan malam, tetapi juga makan siang atau sarapan. Selain mie telur kering, kamu juga bisa menggunakan jenis mie lain seperti mie telur segar, mie kuning, atau kwetiau.</item>
+        <item>Lagi cari ide resep sayur yang praktis dan enak? Bikin oseng kangkung bawang putih aja, yuk! Bahan-bahan dan bumbunya  sederhana dengan cara membuatnya yang juga mudah. Resep oseng kangkung bumbu bawang putih sederhana ini enak disajikan dengan berbagai variasi lauk. Misalnya ayam kecap, tumis daging cincang tahu, atau cumi saus padang.</item>
+        <item>Bosan dengan menu yang itu-itu saja? Coba resep ikan patin bumbu kuning ini, yuk! Cocok banget dijadikan menu untuk memenuhi selera mereka yang tak suka dengan hidangan laut. Sebagai temannya, masakan ini cocok banget kamu sajikan barengan sayuran tumis dengan orek tempe, bakwan sayur, dan tentunya tambahan sambal.</item>
+        <item>Ciri-ciri ayam goreng laos enak adalah cita rasa bumbu yang meresap dengan bumbu ungkep yang garing berwarna cokelat keemasan. Lewat artikel ini, Masak Apa Hari Ini ingin berbagi resep ayam goreng laos atau yang lebih populer dengan sebutan ayam goreng lengkuas yang seenak rumah makan. Selain lengkuas, bumbu rimpang ini juga dikenal dengan sebutan laos di pulau Jawa. Teksturnya berserat dengan rasa yang khas sehingga cocok disantap setelah digoreng. Bumbu ini enak digoreng dan disajikan seperti halnya serundeng kelapa.</item>
+        <item>Selain resep sayur sop, sayur asem, dan sayur capcay, resep sayur lodeh merupakan salah satu masakan yang terdiri dari beberapa jenis sayuran yang punya banyak variasi. Dapat diolah dari berbagai sumber protein misalnya daging ayam, daging sapi, atau ikan asap. Kali ini, Masak Apa Hari Ini ingin mengajak kamu untuk mencoba resep sayur lodeh simple kuah santan yang mudah dibuat dengan bahan yang ekonomis. Tak harus sesuai resep, kamu bisa menjadikan masakan sayur lodeh sebagai ide menu untuk menghabiskan sisa sayuran di kulkas. Misalnya wortel, buncis, terung hijau, atau jagung manis.</item>
+        <item>Inilah menu beef steak yang selalu jadi favorit di restoran. Daging has dalam dipanggang lalu dilumuri saus black pepper. Masak untuk weekend, yuk!</item>
+        <item>Resep udang saus padang restoran seafood yang simple dan gampang bikinnya. Cocok banget disajikan bareng ikan bakar, tumis sayuran, dan tahu isi.</item>
+        <item>Yuk, coba resep ayam bakar rumahan yang enak ini! Lengkapi dengan pendamping yang lezat di atas meja makan. Selamat mencoba!</item>
+        <item>Penasaran mengulik resep nasi goreng yang berbeda? Coba dulu nasi goreng rawon berikut! Praktis dengan rasa pedas nikmat bikin nagih!</item>
+        <item>Ikan Bakar Makassar adalah salah satu hidangan seafood Nusantara yang banyak digemari pencinta kuliner. Yuk, ikuti cara membuatnya!</item>
+        <item>Masak ikan tongkol balado untuk makan siang, yuk! Sebagai temannya, kamu bisa menyajikan tumis sayuran atau oseng tahu tempe. Makin enak!</item>
+        <item>Mie ayam rica rica adalah pilihan baru menikmati comfort food yang jadi kesukaan banyak orang. Yuk, sajikan di rumah dengan resep ini!</item>
+    </string-array>
+
+    <string-array name="data_recipe">
+        <item>"140g mie telur kering, rebus setengah matang, tiriskan",
+            "6 batang sawi hijau, potong 3 cm",
+            "2 butir telur ayam",
+            "5 butir bakso sapi, iris",
+            "2 sdm Bango Kecap Manis Less Sugar",
+            "1 sdm Royco Saus Tiram",
+            "1 sdt Royco Kaldu Ayam",
+            "1 batang daun bawang, potong 2 cm",
+            "2 batang seledri, iris kasar",
+            "100ml air",
+            "3 sdm minyak, untuk menumis"</item>
+        <item>"500 g (2 ikat) kangkung, siangi",
+            "4 siung bawang putih, memarkan",
+            "3 buah cabai merah, iris serong",
+            "3 sdm Royco Saus Tiram",
+            "2 sdm minyak, untuk menumis"</item>
+        <item>"700g ikan patin, potong 4 bagian",
+            "2 sdm air jeruk nipis",
+            "½ sdm garam",
+            "4 lembar daun jeruk",
+            "3cm lengkuas, memarkan",
+            "1 lembar daun salam",
+            "1 batang serai, memarkan",
+            "700ml air",
+            "65ml santan instan",
+            "10 buah cabai rawit merah utuh",
+            "1 sdt Royco Kaldu Ayam",
+            "2 buah tomat, potong 4 bagian",
+            "15 tangkai kemangi, petiki daunnya",
+            "Minyak, untuk menggoreng",
+            "10 butir bawang merah",
+            "5 siung bawang putih",
+            "3 buah cabai merah besar",
+            "4cm kunyit",
+            "1 sdm ketumbar",
+            "½ sdt merica putih"</item>
+        <item>"1 ekor ayam, potong 8 bagian, buang kulitnya",
+            "100g lengkuas",
+            "2 batang serai, memarkan",
+            "2 lembar daun salam",
+            "1 sdm air jeruk nipis",
+            "1 sdm Royco Kaldu Ayam",
+            "Minyak, untuk menggorang ayam dan menumis",
+            "8 butir bawang merah",
+            "5 siung bawang putih",
+            "4cm kunyit",
+            "2cm jahe",
+            "4 butir kemiri sangrai",
+            "1 sdm ketumbar"</item>
+        <item>"300g ceker ayam atau kaki ayam",
+            "200g labu siam, kupas, potong kotak 2,5 cm",
+            "1 buah terung ungu, belah 2 memanjang, potong-potong",
+            "100g kacang panjang, potong 3 cm",
+            "50g daun melinjo",
+            "1l air, untuk merebus",
+            "65ml santan instan",
+            "3 buah cabai hijau, potong serong",
+            "3cm lengkuas, memarkan",
+            "2 lembar daun salam",
+            "1sdt Royco Kaldu Ayam",
+            "1sdm gula merah",
+            "6 butir bawang merah",
+            "4 siung bawang putih",
+            "4 butir kemiri sangrai",
+            "1 sdt garam"</item>
+        <item>"360 g daging sapi tenderloin (180g x 2)",
+            "½ sdt garam",
+            "¼ sdt merica hitam, gerus kasar",
+            "1 sdt thyme",
+            "3 sdm mentega",
+            "4 sdm bawang bombay, cincang",
+            "2 siung bawang putih, cincang",
+            "1 sdt tepung terigu",
+            "175 ml susu cair",
+            "2 sdt merica hitam, gerus kasar",
+            "1 sdt Royco Kaldu Sapi",
+            "100 g wortel, potong 5x0,5 cm, blansir",
+            "150 g buncis, potong 5 cm, blansir"</item>
+        <item>"700 g udang berukuran besar",
+            "200 g jamur enoki, siangi",
+            "50 g bawang bombay, iris",
+            "1 batang daun bawang, potong serong",
+            "1 buah tomat, cincang",
+            "200 ml air",
+            "½ sdt garam",
+            "½ sdt merica putih bubuk",
+            "½ sdt gula pasir",
+            "2 sdm Royco Saus Tiram",
+            "5 sdm Jawara Saus Sambal Hot",
+            "minyak, untuk menumis dan menggoreng"</item>
+        <item>"1 ekor ayam pejantan, bagi 4",
+            "4 lembar daun salam",
+            "2 batang serai, ambil bagian putihnya, memarkan",
+            "3 sdm air asam jawa",
+            "500 ml santan",
+            "10 butir bawang merah",
+            "5 siung bawang putih",
+            "1 sdm ketumbar",
+            "5 butir kemiri",
+            "2 cm kunyit",
+            "3 cm lengkuas",
+            "3 sdm gula merah",
+            "½ sdt merica bubuk",
+            "1 sdt garam",
+            "1 sdm gula pasir",
+            "1 sdm Bango Kecap Manis"</item>
+        <item>"3 porsi nasi",
+            "200 g daging sapi sukiyaki, iris",
+            "100 g pakchoy, potong 3 cm",
+            "1 bungkus Bango Bumbu Rawon Khas Malang",
+            "1 sdm Bango Kecap Manis",
+            "1 buah mentimun, potong serongv",
+            "1 buah tomat, iris",
+            "3 sdm minyak, untuk menumis",
+            "6 butir bawang merah, iris",
+            "5 buah cabai rawit merah, iris",
+            "5 lembar daun jeruk, buang tulang daunnya "</item>
+        <item>"1 ekor ikan laut (ikan lamuru, kudu-kudu, kakap, kuwe)",
+            "3 sdm Bango Kecap Manis",
+            "2 sdm margarin, untuk menumis Bumbu, aduk rata",
+            "10 butir bawang merah, goreng, tumbuk",
+            "2 sdm Bango Kecap Manis",
+            "1 sdt asam jawa, larutkan dengan 1 sdm air panas",
+            "1 sdt garam",
+            "½ sdt gula pasir",
+            "½ sdt merica putih bubuk Sambal",
+            "8 butir bawang merah, cincang",
+            "3 buah belimbing wuluh, iris",
+            "1 sdt air jeruk nipis",
+            "10 buah cabai rawit merah, cincang halus",
+            "1 buah tomat merah, cincang",
+            "2 sdt gula pasir",
+            "1 sdt garam"</item>
+        <item>"500 g ikan tongkol segar, potong 4 bagian",
+            "1 buah tomat, potong-potong",
+            "1 batang daun bawang, potong 2 cm",
+            "1 sdm air jeruk nipis",
+            "½ sdm Royco Kaldu Ayam",
+            "5 lembar daun jeruk, buang tulang daunnya",
+            "Minyak, untuk menggoreng",
+            "10 buah cabai merah keriting",
+            "8 butir bawang merah",
+            "4 siung bawang putih"</item>
+        <item>"500 g mi telur segar, rebus",
+            "400 g fillet dada ayam, potong dadu",
+            "50 g jamur kancing, belah dua",
+            "1 buah tomat merah, potong dadu",
+            "1 batang serai, memarkan",
+            "1 cm lengkuas",
+            "5 lembar daun jeruk",
+            "1 sdm gula pasir",
+            "½ sdt garam",
+            "½ sdt merica putih bubuk",
+            "500 ml air",
+            "1.5 L air, untuk kaldu",
+            "1 sdm Royco Kaldu Ayam",
+            "1 batang daun bawang, iris tipis",
+            "3 siung bawang putih, cincang halus",
+            "1 sdt gula pasir",
+            "2 sdm minyak, untuk menumis",
+            "6 butir bawang merah",
+            "4 siung bawang putih",
+            "5 buah cabai merah",
+            "6 buah cabai rawit merah",
+            "1 sdt ketumbar bubuk",
+            "1 cm jahe"</item>
+    </string-array>
+
+    <string-array name="data_procedure">
+        <item>"Bumbu mie goreng nyemek: Haluskan semua bahan bumbu. Sisihkan.",
+            "Panaskan minyak, tumis bumbu halus hingga harum. Tambahkan bakso sapi, aduk rata.",
+            "Sisihkan bumbu beserta bakso ke pinggir wajan. Masukkan telur, buat orak-arik.",
+            "Masukkan sawi, Royco Saus Tiram, Royco Kaldu Ayam, dan mie, aduk rata.",
+            "Tambahkan Bango Kecap Manis Less Sugar dan daun bawang, aduk hingga tercampur rata.",
+            "Tuang air dan seledri, aduk rata dan masak sebentar hingga meresap. Angkat.",
+            "Sajikan mie goreng nyemek bersama bahan pelengkap."</item>
+        <item>"Siangi kangkung, lalu cuci bersih dan tiriskan. Sisihkan.",
+            "Panaskan minyak, tumis bawang putih dan cabai hingga harum. Tambahkan Royco Saus Tiram, aduk.",
+            "Masukkan kangkung, aduk rata hingga kangkung layu. Angkat dan sajikan."</item>
+        <item>"Lumuri ikan patin dengan air asam dan garam sambil digosok hingga ke bagian rongga perut. Diamkan dalam kulkas selama 20-30 menit atau hingga meresap. Cuci bersih.",
+            "Panaskan minyak, goreng ikan hingga permukaannya garing. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 2 sdm minyak sisa menggoreng ikan, tumis bumbu halus bersama daun jeruk, lengkuas, daun salam, dan serai hingga harum.",
+            "Tuang air dan santan, masak hingga mendidih. Masukkan ikan, cabai rawit, dan Royco Kaldu Ayam. Masak hingga bumbu meresap.",
+            "Tambahkan tomat dan daun kemangi, aduk hingga layu. Angkat dan sajikan."</item>
+        <item>"Lumuri daging ayam dengan air jeruk nipis hingga merata. Diamkan selama 10 menit. Sisihkan.",
+            "Panaskan 2 sdm minyak, tumis bumbu halus, lengkuas, serai, dan daun salam hingga harum.",
+            "Masukkan daging ayam, aduk hingga kaku. Kecilkan api dan tutup wajan.",
+            "Masak hingga setengah matang, tambahkan Royco Kaldu Ayam, aduk. Tutup kembali wajan dan masak hingga matang. Angkat.",
+            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan."</item>
+        <item>"Rebus ceker hingga mendidih, kecilkan api.",
+            "Masukkan daun salam, lengkuas, dan bumbu halus, dan gula merah, aduk. Masukkan labu siam, aduk rata. Masak hingga setengah matang.",
+            "Tambahkan terung dan santan, aduk rata.",
+            "Masukkan kacang panjang, cabai hijau, dan Royco Kaldu Ayam, masak sambil diaduk supaya santan tidak pecah.",
+            "Saat semua bahan sayuran sudah matang, masukkan daun melinjo, aduk hingga layu. Angkat dan sajikan."</item>
+        <item>"Lumuri daging sapi dengan garam dan merica. Diamkan selama 5-10 menit.",
+            "Panaskan mentega dalam wajan antilengket, masak daging sapi bersama bawang putih dan thyme hingga tingkat kematangannya sesuai selera. Angkat. Keluarkan daging sapi beserta bawang putih dan rosemary dari wajan.",
+            "Saus lada hitam: Tumis bawang bombay dan bawang putih menggunakan sisa mentega memasak daging. Masukkan tepung terigu, aduk rata. Tuang susu cair dan Royco Kaldu Sapi. Masak hingga mengental.",
+            "Tambahkan merica hitam, masak hingga tercampur rata. Angkat.",
+            "Sajikan steak bersama saus lada hitam dan sayuran pelengkap."</item>
+        <item>"Belah tidak putus punggung udang menggunakan gunting dapur, keluarkan kotorannya. Cuci bersih. Sisihkan.",
+            "Panaskan minyak, goreng udang selama 15-30 detik. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 3 sdm minyak, tumis bumbu halus dan tomat hingga harum. Tuang air, masak hingga tomat hancur.",
+            "Masukkan garam, merica, gula pasir, Royco Saus Tiram, dan Jawara Saus Sambal Hot, aduk rata.",
+            "Masukkan udang, aduk sebentar. Tambahkan jamur dan daun bawang, aduk hingga semua bahan matang. Angkat. Sajikan."</item>
+        <item>"Bersihkan ayam, potong 4 bagian.",
+            "Larutkan asam jawa dalam air panas. Remas-remas dan ambil airnya.",
+            "Masukkan semua bahan bumbu halus beserta Bango Kecap Manis ke dalam blender atau food processor. Haluskan.",
+            "Panaskan wajan, tambahkan sedikit minyak untuk menumis dan tumis bumbu halus sampai wangi. Masukkan daun salam dan sereh, aduk-aduk rata sampai tercium aroma wangi.",
+            "Tambahkan air asam jawa, aduk merata hingga tercampur ke bumbu. Kemudian masukkan potongan ayam, aduk merata dengan bumbu.",
+            "Setelah ayam bercampur dengan bumbu hingga merata dan setelah dalam penggorengan beberapa saat, masukkan santan. Masak ayam berbumbu dengan santan sampai semua meresap ke dalam ayam dengan baik. Sesekali di aduk supaya santan tidak pecah.",
+            "Memasak santan dan ayam ini dalam api kecil sekitar dua jam dan hasilnya daging ayam pun jadi empuk.",
+            "Siapkan panggangan. Jangan lupa bolak balik ayam ketika dibakar. Tiap kali oleskan sisa bumbu ke bagian ayam yang mulai kering saat memanggangnya.",
+            "Setelah ayam kecokelatan, angkat dan siap untuk disajikan."</item>
+        <item>"Panaskan minyak, tumis semua bahan bumbu hingga harum. Tambahkan Bango Bumbu Kuliner Nusantara Rawon Khas Malang, aduk rata.",
+            "Masukkan daging, aduk sebentar. Masak hingga daging matang.",
+            "Masukkan nasi dan Bango Kecap Manis. Aduk hingga rata dan nasi berasap. Tambahkan pakchoy, daun bawang, aduk sebentar. Angkat.",
+            "Sajikan nasi goreng dengan telur asin, tomat, mentimun, dan kerupuk udang."</item>
+        <item>"Panaskan margarin, tumis bumbu hingga harum. Tambahkan Bango Kecap Manis, aduk. Angkat.",
+            "Lumuri ikan dengan bumbu hingga merata. Diamkan dalam kulkas selama 45 menit. Sisihkan. ",
+            "Sambal belimbing: Aduk rata bawang merah, belimbing wuluh, dan cuka. Diamkan selama 15 menit. 4. Aduk rata bersama sisa bahan. Sisihkan.",
+            "Panaskan grill pan, panggang ikan di kedua sisinya hingga merata. Angkat. Sajikan bersama sambal."</item>
+        <item>"Lumuri ikan tongkol dengan air jeruk nipis dan separuh bagian Royco Kaldu Ayam hingga merata. Diamkan selama 10 menit. Sisihkan.",
+            "Panaskan minyak, goreng ikan tongkol hingga matang. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 3 sdm minyak, tumis bumbu halus bersama daun jeruk hingga harum. Kecilkan api, tambahkan tomat dan sisa Royco Kaldu Ayam, aduk rata. Masak hingga tomat hancur.",
+            "Tambahkan daun bawang, aduk hingga layu.",
+            "Masukkan ikan goreng, aduk rata. Angkat dan sajikan."</item>
+        <item>"Ayam rica-rica: Panaskan sedikit minyak, tumis bumbu halus hingga harum. Masukkan daging ayam, jamur, tomat, serai, lengkuas, dan daun jeruk. Masak hingga daging ayam berubah warna.",
+            "Masukkan 500 ml air, gula pasir, garam dan merica bubuk. Masak hingga air menyusut. Angkat dan sisihkan.",
+            "Kuah kaldu: Panaskan sedikit minyak, tumis bawang putih sebentar. Kemudian tuang 1.5 L air. Masukkan gula dan Royco Kaldu Ayam. Masak hingga tercampur rata. Angkat. Taburi daun bawang. Sisihkan.",
+            "Tata mi, ayam rica-rica, dan sawi hijau dalam mangkuk saji. Taburi dengan bawang goreng, sajikan."</item>
+    </string-array>
+
+    <string-array name="data_image">
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Mie-Goreng-Nyemek-Sederhana-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Oseng-Kangkung-Bawang-Putih-Sederhana-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2022/05/beef-steak-sapi-lada-hitam-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2022/05/resep-udang-saus-padang-sambal-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2018/04/resep-ayam-bakar-enak-dan-gurih-1-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/01/07-resep-nasi-goreng-rawon-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2021/12/ikan-bakar-makassar-produk-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ikan-Tongkol-Balado-Enak-dan-Pedas-500x300.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2019/09/MIE-AYAM-RICA-RICA-WITH-PRODUCT-500x300.jpg</item>
+    </string-array>
+
 </resources>
