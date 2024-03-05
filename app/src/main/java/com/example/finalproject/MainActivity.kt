@@ -1,8 +1,9 @@
 package com.example.finalproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
-import android.widget.Toast
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListFoods())
         showRecyclerList()
+
+        supportActionBar?.title = "Pilih Makanan"
     }
 
     private fun getListFoods(): ArrayList<Food> {
@@ -52,10 +55,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedFood(food: Food) {
-        Toast.makeText(this, "Kamu memilih " + food.name, Toast.LENGTH_SHORT).show()
+        val moveDetail = Intent(this@MainActivity, DetailView::class.java)
+        moveDetail.putExtra(DetailView.EXTRA_FOOD, food)
+        startActivity(moveDetail)
+//        Toast.makeText(this, "Kamu memilih " + food.name, Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_profile -> {
+                // move to profile page
+                val moveProfile = Intent(this@MainActivity, ProfileView::class.java)
+                startActivity(moveProfile)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
 }
+
+
