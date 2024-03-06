@@ -55,7 +55,6 @@ class MainActivity : AppCompatActivity() {
         val moveDetail = Intent(this@MainActivity, DetailView::class.java)
         moveDetail.putExtra(DetailView.EXTRA_FOOD, food)
         startActivity(moveDetail)
-//        Toast.makeText(this, "Kamu memilih " + food.name, Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -65,7 +64,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_profile -> {
+            R.id.about_page -> {
                 // move to profile page
                 val moveProfile = Intent(this@MainActivity, ProfileView::class.java)
                 startActivity(moveProfile)

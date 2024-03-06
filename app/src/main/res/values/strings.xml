@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name">Get A Meal</string>
     <string name="nama_makanan">Nama Makanan</string>
     <string name="image_food">Image food</string>
     <string name="list">List</string>
@@ -15,6 +15,9 @@
     <string name="name">Ahmad Taufiq Nur Rohman</string>
     <string name="email">afiq20030602@gmail.com</string>
     <string name="md_49">MD-49</string>
+    <string name="share_makanan_ini">Share Makanan Ini</string>
+    <string name="kembali">Kembali</string>
+    <string name="get_a_meal">Get A Meal</string>
 
     <string-array name="data_name">
         <item>Mie Goreng Nyemek</item>
