@@ -7,17 +7,14 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.finalproject.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvFoods: RecyclerView
     private val list = ArrayList<Food>()
-    private lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
         rvFoods = findViewById(R.id.rv_foods)
         rvFoods.setHasFixedSize(true)
